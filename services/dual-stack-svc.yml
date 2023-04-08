@@ -4,9 +4,6 @@ metadata:
   name: dual-stack-svc
 spec:
   ipFamilyPolicy: PreferDualStack
-  ipFamilies:
-  - IPv6
-  - IPv4
   type: ClusterIP
   ports:
   - port: 8080
